@@ -6,7 +6,7 @@ from pptx.dml.color import RGBColor
 from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
 from pptx.enum.shapes import MSO_SHAPE
 
-def create_presentation(output_pptx="CSE24562_Malayalam.pptx", screenshot_path="execution_screenshot.png"):
+def create_presentation(output_pptx="CSE24562.pptx", screenshot_path="execution_screenshot.png"):
     prs = Presentation()
     # Set slide dimensions to widescreen 16:9
     prs.slide_width = Inches(13.333)
@@ -405,7 +405,7 @@ def create_presentation(output_pptx="CSE24562_Malayalam.pptx", screenshot_path="
     details = [
         ("Project Name", "English to Malayalam AI/NLP Glossary Translation using SLM"),
         ("Language & Frameworks", "Python 3.10+, Meta NLLB-200-distilled-600M, HuggingFace Transformers, PyTorch, PyPDF"),
-        ("Key Deliverables", "1. translate_glossary.py (SLM Translation Script)\n2. CSE24562_Malayalam.pptx (6-Slide Presentation Deck)\n3. glossary_translation_results.json / .md (Translated Datasets)\n4. execution_screenshot.png (Program Execution Proof)"),
+        ("Key Deliverables", "1. translate_glossary.py (SLM Translation Script)\n2. CSE24562.pptx (6-Slide Presentation Deck)\n3. glossary_translation_results.json / .md (Translated Datasets)\n4. execution_screenshot.png (Program Execution Proof)"),
         ("Native Language", "Malayalam (mal_Mlym)"),
         ("Result", "Successfully parsed English PDF glossary and translated 15 complex technical AI/NLP definitions into Malayalam using a 600M parameter SLM.")
     ]
