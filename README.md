@@ -16,7 +16,7 @@ This repository contains an end-to-end Natural Language Processing (NLP) applica
 - **SLM Model Employed**: `facebook/nllb-200-distilled-600M` (A 600 Million parameter multilingual sequence-to-sequence SLM).
 - **Core Deliverables**:
   1. `translate_glossary.py` — Main Python program extracting PDF text and performing SLM translation.
-  2. `CSE24762_Malayalam.pptx` — Widescreen 6-slide presentation deck covering SLM working, architectures, LLM comparison, and project results.
+  2. `CSE24562_Malayalam.pptx` — Widescreen 6-slide presentation deck covering SLM working, architectures, LLM comparison, and project results.
   3. `execution_screenshot.png` — High-resolution screenshot proof of program execution.
   4. `glossary_translation_results.json` / `.md` — Structured output datasets.
 
@@ -67,13 +67,13 @@ pip install -r requirements.txt
 # Run English to Malayalam SLM Translation & generate execution screenshot
 python translate_glossary.py
 
-# Generate/Rebuild PowerPoint presentation deck (CSE24762_Malayalam.pptx)
+# Generate/Rebuild PowerPoint presentation deck (CSE24562_Malayalam.pptx)
 python generate_presentation.py
 ```
 
 ---
 
-## 🖥 Presentation Structure (`CSE24762_Malayalam.pptx`)
+## 🖥 Presentation Structure (`CSE24562_Malayalam.pptx`)
 
 | Slide # | Slide Topic | Description |
 |---|---|---|
