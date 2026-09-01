@@ -1,0 +1,13 @@
+# Virtual Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# HuggingFace Cache & Weights
+.cache/
+*.bin
+*.safetensors
+
+# macOS system files
+.DS_Store
